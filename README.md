@@ -36,4 +36,20 @@ while a:
     if seri.in_waiting !=0 :
         content = seri.readline()
         print(content.decode())
+```
+## 아두이노 빛 센서 
+```C
+int Cds = 0;
 
+void setup(){
+  Serial.begin(9600);
+  pinMode(A1, INPUT);
+}
+
+void loop(){
+  Cds = analogRead(A1);
+  Serial.println(Cds);
+  
+  delay(1000);
+}
+```
