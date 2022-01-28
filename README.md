@@ -116,3 +116,8 @@ cd /tmp
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
 sudo dpkg -i wiringpi-latest.deb
 ``` 
+## influxdb 작성법
+```
+~ $ influx
+> create database 이름
+```
