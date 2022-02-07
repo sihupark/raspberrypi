@@ -1,0 +1,4 @@
+# grafana 사용법
+## grafana
+127.0.0.1:3000 -> name(admin), password() -> configuration -> Data sources -> add data source -> influxdb -> setting(name, URL, Database(cds,pir1), User, password -> Create -> Dashboard -> add a new panel -> select measurement(pir1) -> + -> select tag value(1) 
+```
