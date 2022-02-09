@@ -121,3 +121,9 @@ sudo dpkg -i wiringpi-latest.deb
 ~ $ influx
 > create database 이름
 ```
+# 인체 인식
+## password
+```
+~$ sudo passwd root
+New password: qkrtlgn@1225
+```
